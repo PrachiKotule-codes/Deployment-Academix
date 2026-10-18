@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{if(window.lucide)window.lucide.createIcons();const b=document.getElementById('sidebarToggle'),s=document.getElementById('sidebar');if(b&&s)b.addEventListener('click',()=>s.classList.toggle('collapsed'));});
